@@ -1,12 +1,27 @@
+:root{
+    --primary-color: aliceblue;
+    --secondary-color: rgb(10, 42, 84);
+    --accent-color: rgb(139, 217, 239)
+}
+
+body{
+    background-color: var(--primary-color);
+}
+
+header{
+    background-color: var(--secondary-color);
+}
 
 nav {
     display: flex;
     justify-content: flex-end;
     margin-right: 10%;
+    
 }
 
 nav a {
-    margin: 2px;
+    margin: 5px;
+    color: var(--accent-color);
 }
 
 section {
@@ -15,8 +30,15 @@ section {
 
 H2 {
     text-align: right;
+    color: var(--secondary-color);
+    font-size: 4em;
     width: 30%;
     margin-top: 2%;
+    padding-right: 1%;
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-right-color: var(--secondary-color);
+    flex-wrap: wrap;
 }
 
 article {
@@ -26,11 +48,23 @@ article {
     margin: 2% 10%;
 }
 
+h1{
+    color: var(--secondary-color);
+    font-weight: bold;
+    padding: 10px;
+}
+
+mark{
+    background-color: var(--accent-color);
+}
 
 figure {
+    position: relative;
     width: 46%;
     height: 10em;
-    margin: 2%;  
+    margin: 2%;
+    border: 5px solid;
+    border-color: var(--accent-color);  
 }
 
 figure img{
@@ -38,9 +72,24 @@ figure img{
    height: 100%;
 }
 
+figcaption{
+    position: absolute;
+    bottom: 5%;
+    display: flex;
+    flex-wrap:wrap;
+    background-color: var(--accent-color);
+    width: 20%;
+    z-index: 1;
+    color: var(--secondary-color);
+}
 
 .contactMethod{
-    margin: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 33%;
+    color: var(--accent-color);
+    font-weight: bold;
 }
 
 .featured{
