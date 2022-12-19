@@ -48,7 +48,17 @@ nav a {
     margin: 5px;
     color: var(--accent-color);
 }
-
+summary{
+    display:flex;
+    flex-wrap: wrap;
+    background-image: url("../images/banner.png");
+    min-height: 20vh;
+    justify-content: center;
+    align-items: center;
+    color: var(--accent-color);
+    font-weight: bold;
+    font-size: 2em;
+}
 section {
     display: flex;
 }
@@ -152,6 +162,11 @@ small{
         align-items: center;
         color: var(--accent-color);
     }
+    summary{
+        font-size: 1em;
+        text-align: center;
+    }    
+
     section {
         flex-direction: column;
     }
