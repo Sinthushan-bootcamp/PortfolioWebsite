@@ -52,6 +52,7 @@ summary{
     display:flex;
     flex-wrap: wrap;
     background-image: url("../images/banner.png");
+    background-size: cover;
     min-height: 20vh;
     justify-content: center;
     align-items: center;
