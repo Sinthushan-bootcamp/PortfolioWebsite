@@ -168,6 +168,9 @@ small{
         flex-wrap: wrap;
         justify-content:center;
     }
+    figcaption{
+        width:auto;
+    }
     .contactMethod{
         display: flex;
         flex-wrap:wrap;
