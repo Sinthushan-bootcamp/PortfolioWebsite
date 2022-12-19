@@ -4,7 +4,7 @@
 
 This portfolio website will be an ongoing project to not only host coding projects that I have completed but to also use the knowledge gained from those projects to improve the portfolio website. The website currently uses simple HTML and CSS. The goal is to eventually add Vanilla Javascript and then move on to using a frontend framework.
 
-![Screenshot of my portfolio website](./Assets/images/WebsiteScreenshot.png)
+![Screenshot of my portfolio website](./Assets/images/WebsiteScreenshot.PNG)
 
 ## Table of Contents
 
