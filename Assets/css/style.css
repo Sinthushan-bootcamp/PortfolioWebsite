@@ -127,4 +127,54 @@ small{
     font-weight: bold;
 }
 
-
+@media screen and (max-width: 970px) {
+    header{
+        flex-direction: column;
+        align-items:center;
+    }
+    #titleSection{
+        flex-direction: column;
+        align-items:center;
+    }
+    #PortfolioPicture{
+        align-items:center;
+    }
+    
+    h1{
+        justify-content:center;
+    }
+    nav {
+        align-items: center;
+        margin-right: 0;
+    }
+    nav a {
+        margin: 5px;
+        align-items: center;
+        color: var(--accent-color);
+    }
+    section {
+        flex-direction: column;
+    }
+    H2 {
+        text-align: center;
+        font-size: 3em;
+        width: 100%;
+        margin-top: 2%;
+        border-right: none;
+        border-bottom-style: solid;
+        border-bottom-width: 2px;
+        border-bottom-color: var(--secondary-color);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:center;
+    }
+    .contactMethod{
+        display: flex;
+        flex-wrap:wrap;
+        align-items: center;
+        width: 100%;
+        color: var(--accent-color);
+        font-weight: bold;
+    }
+    
+}
